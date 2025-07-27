@@ -1,0 +1,197 @@
+/* COMMON */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  ul,
+  ol {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+  }
+
+  h2 {
+    color: #2e2f42;
+  }
+
+  /* NAVIGATION */
+}
+.header-nav {
+  background-color: WHITE;
+  color: #2e2f42;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  text-decoration: none;
+  leading-trim: NONE;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* .header-logo {
+  margin-right: 76px;
+} */
+
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+/* .footer-logo {
+  margin-bottom: 16px;
+} */
+.nav-link {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* SECTION HERO */
+
+.hero {
+  background-color: #2e2f42;
+}
+.hero-main {
+  color: white;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 56px;
+  leading-trim: NONE;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.button-oder-service {
+  color: white;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.button-oder-service:hover,
+.button-oder-service:focus {
+  background-color: #404bbf;
+}
+
+/*2- SECTION ADVANTAGES */
+
+.second-title {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  leading-trim: NONE;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.title-three {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advantages-p {
+  color: #434455;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* 3-4 - SECTIONS OUR TEAM AND PORTFOLIO */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+.bkgrnd {
+  background-color: #ffffff;
+}
+
+.portfolio {
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.foot-text {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
