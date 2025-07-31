@@ -40,9 +40,7 @@ a {
 /* HEADER */
 /* NAVIGATION */
 .page-header {
-  background-color: white;
   border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
 }
 .header-container {
   display: flex;
@@ -89,7 +87,6 @@ a {
   display: block;
   font-weight: 500;
   font-size: 16px;
-  leading-trim: NONE;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -113,9 +110,7 @@ a {
 .contacts-link {
   display: block;
   padding: 24px 0;
-  font-style: Regular;
   font-size: 16px;
-  leading-trim: NONE;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -129,59 +124,51 @@ a {
 /* SECTION HERO */
 
 .hero {
-  background-color: #2E2F42;
-  width: 1140px;
-  height: 600px;
+  background-color: #2e2f42;
+  width: 1440px;
+  max-width: 1440px;
+  /* margin: 0 auto; */
   padding-top: 188px;
   padding-bottom: 188px;
-  
+  padding-right: auto;
+  padding-left: auto;
 }
-.title-hero {
-  height: 120px;
-  margin: 0 auto;
-  max-width: 496px;
-}
-
 
 .hero-main-title {
-  color: white;
+  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  font-style: Bold;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
-  margin 0 auto;
+  /* text-align: center; */
+  /* margin 0 auto; */
   max-width: 496px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .button-order-service {
-  color: white;
+  color: #ffffff;
   background-color: #4d5ae5;
   height: 56px;
-  angle: 0 deg;
-  opacity: 1;
-  top: 428px;
-  left: 636px;
   border-radius: 4px;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
-  gap: 10px;
   display: block;
   min-width: 169px;
   border: none;
   cursor: pointer;
-  margin-top: 48px;
   margin-right: auto;
-  margin-bottom: 0;
   margin-left: auto;
 }
 
 .button-order-service:hover,
 .button-order-service:focus {
-  background-color:#404bbf;
+  background-color: #404bbf;
 }
 
 /*2- SECTION ADVANTAGES */
@@ -193,11 +180,7 @@ a {
 
 .advantages-list {
   display: flex;
-  align-items: center;
   gap: 24px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .visually-hidden {
@@ -236,28 +219,23 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
- 
+
   .visually-hidden {
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
-}
-
-
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 }
 .title-three {
-  font-family: Roboto;
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
-  leading-trim: NONE;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -270,11 +248,8 @@ a {
 
 .advantages-p {
   color: #434455;
-  font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
   font-size: 16px;
-  leading-trim: NONE;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -293,11 +268,8 @@ a {
 
 .second-title-team {
   color: #2e2f42;
-  font-family: Roboto;
   font-weight: 700;
-  font-style: Bold;
   font-size: 36px;
-  leading-trim: NONE;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
@@ -307,24 +279,21 @@ a {
 
 .team {
   display: flex;
-  align-items: center;
   gap: 24px;
-  margin: 0;
-  list-style: none;
 }
+.team .bkgrnd {
+  width: calc((100% - 72px) / 4);
+}
+
 .foto-corners {
-  display: block
+  display: block;
 }
 .team-name {
   text-align: center;
   padding: 32px 0;
 }
 .title-h-three-team {
-  font-family: Roboto;
   font-weight: 500;
-  font-style: Medium;
-  -size: 20px;
-  leading-trim: NONE;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -333,6 +302,11 @@ a {
 }
 .team-paragraf {
   text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* PORTFOLIO */
@@ -342,14 +316,10 @@ a {
   background-color: #ffffff;
   padding-top: 120px;
   padding-bottom: 120px;
-  
 }
 .portfolio-list {
   display: flex;
   gap: 24px;
-  margin: 0;
-  padding-top: 72px;
-  list-style: none;
   flex-wrap: wrap;
   row-gap: 48px;
 }
@@ -379,11 +349,8 @@ a {
 }
 
 .title-three-portfolio {
-  font-family: Roboto;
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
-  leading-trim: NONE;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -393,47 +360,37 @@ a {
 /* FOOTER */
 
 .page-footer {
-  background-color: #2E2F42;
-  width: 1440px;
-  max-width: 1140px;
-  height: 312px;
+  background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .footer-logo {
-color: #4d5ae5;
-font-family: Raleway, sans-serif;
-font-weight: 700;
-font-style: Bold;
-font-size: 18px;
-text-decoration: none;
-leading-trim: NONE;
-line-height: 1.17;
-letter-spacing: 0.03em;
-margin-bottom: 16px;
-display: inline-block;
-text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+  display: inline-block;
+  text-transform: uppercase;
 }
 
 .footer-logo-part {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .footer-text {
-  color: #F4F4FD;
-  font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 1.5;
-letter-spacing: 0.02;
-max-width: 264px
-
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .footer-info-box {
-  
   width: 264px;
   height: 112px;
   angle: 0 deg;
